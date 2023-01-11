@@ -4,7 +4,8 @@ from sys import argv
 
 
 if __name__ == "__main__":
-add = 0
-for s in argv[1:]:
-    add += int(s)
-print("{:d}".format(add))
+    newsum = 0
+    if len(argv) > 1:
+        for i in range(1, len(argv)):
+            newsum += int(argv[i])
+    print(newsum)
