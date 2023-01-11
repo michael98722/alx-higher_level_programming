@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3i
 from sys import exit, argv
 from calculator_1 import add, sub, div, mul
 if __name__ == "__main__":
@@ -21,4 +21,3 @@ if __name__ == "__main__":
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
-
