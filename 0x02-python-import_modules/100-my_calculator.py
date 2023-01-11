@@ -1,4 +1,4 @@
-#!/usr/bin/python3i
+#!/usr/bin/python3
 from sys import exit, argv
 from calculator_1 import add, sub, div, mul
 if __name__ == "__main__":
